@@ -4,10 +4,10 @@ z = input('Enter an operator(+,-,/,*) =')
 if z == '+':
  print(x+y)
 elif z == '-':
- print(x-y)
+    print(x-y)
 elif z == '*':
- print(x*y)
+    print(x*y)
 elif y != '0' and z == '/':
- print(x/y)
+    print(x/y)
 elif y == '0':
- print("ZeroDivisionError")
+    print("ZeroDivisionError")
